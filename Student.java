@@ -11,14 +11,14 @@ public class Student {
 		this.age = 0;
 	}
 
-	public Student(int id, String name, int age) {
+	public Student(int id, String n, int age) {
 		this.id = id;
-		this.name = name;
+		name = n;
 		this.age = age;
 	}
 
 	public int getId() {
-		return id;
+		return id++;
 	}
 
 	public void setId(int id) {
@@ -26,11 +26,11 @@ public class Student {
 	}
 
 	public String getName() {
-		return name;
+		return n;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		name = n;
 	}
 
 	public int getAge() {
